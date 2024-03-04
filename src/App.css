@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+/* App.css */
+
+.App {
+  text-align: center;
+  margin: 20px;
+}
+
+.header {
+  background-color: #2196f3;
+  padding: 20px;
+  color: pink;
+}
+
+.team-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.team-card {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+}
