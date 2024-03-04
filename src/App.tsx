@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import data from './CollegeBasketballTeams.json';
+import data from './CollegeBasketballTeams.json'; //import the data from the json file
 
 interface TeamProps {
   school: string;
@@ -24,6 +24,7 @@ function Welcome() {
   );
 }
 
+// this function creates a team card for each seperate element and loads up the data from the json file into each attribute of th eobject
 class TeamCard extends React.Component<TeamProps> {
   render() {
     const oneCard = this.props;
@@ -38,6 +39,7 @@ class TeamCard extends React.Component<TeamProps> {
   }
 }
 
+// this function iterated through each team card to print them into the div team-list
 function TeamList() {
   return (
     <div className="team-list">
@@ -51,6 +53,8 @@ function TeamList() {
     </div>
   ); //function that will return a list of bands
 }
+
+// this function calls the frevious functions to generate them onto the index page
 
 function App() {
   return (
