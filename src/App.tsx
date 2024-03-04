@@ -29,7 +29,7 @@ class TeamCard extends React.Component<TeamProps> {
     const oneCard = this.props;
 
     return (
-      <div>
+      <div className="team-card">
         <h2>{oneCard.school}</h2>
         <h3>Mascot: {oneCard.name}</h3>
         <h3>Location: {oneCard.city + ', ' + oneCard.state}</h3>

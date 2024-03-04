@@ -63,3 +63,6 @@
   margin: 10px;
   width: 300px;
 }
+.team-card h3 {
+  color: grey; /* Set the color of h2 to blue */
+}
